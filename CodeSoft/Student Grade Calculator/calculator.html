@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <!--CSS File-->
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Total :<span class="to"></span> </h2>
+                <h2>Percentage : <span class="per"></span> </h2>
+                <h2>Grade : <span class="gra"></span> </h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="a" placeholder="Subject 1"/>
+                <input type="number" id="b" placeholder="Subject 2"/>
+                <input type="number" id="c" placeholder="Subject 3"/>
+                <input type="number" id="d" placeholder="Subject 4"/>
+                <input type="number" id="e" placeholder="Subject 5"/>
+                <button type="button" onclick="show_result()">Show Result</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    
+    <!--js file-->
+    <script src="./one.js"></script>
+</body>
+</html>
